@@ -15,11 +15,18 @@
 
 	- Out
 
-		ZQ
+		-Cierre
+    ZQ
 		
-         or
+      or
 
-		:q
+    - Cierre
+    :q
+
+      or
+
+    - Cierre todo
+    :qa
 wnn
 
 
@@ -52,6 +59,13 @@ wnn
     :x 
 
 
+## Save All
+
+  - Es usado cuando se tienen multiples archivos abiertos, editados y se desean guardar todos
+  
+    :wall
+
+
 ## Save & editar siguiente, anterior
 
     :wn 
@@ -73,6 +87,13 @@ wnn
 
     dd
 
+      or
+
+    d + shift 4
+
+      or 
+
+    d + 0 + d
 
 
 
@@ -93,4 +114,4 @@ hupi hdowni . . recordar comandos anteriores (historial)
 
 ## mostrar lista de argumentos
 
-:args . . . . . . . . . . . . . . . . . . . . 
+:args
