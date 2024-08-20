@@ -39,11 +39,20 @@ wnn
 
 
 
-## Save - editar siguiente, anterior
+## Save & Exit
 
     ZZ
 
      or
+    
+    :wq
+
+     or 
+
+    :x 
+
+
+## Save & editar siguiente, anterior
 
     :wn 
     
@@ -53,9 +62,19 @@ wnn
 
 
 
+## Deshacer cambios
+
+    - Uso en modo normal
+
+    u
+
+
 ## Quitar lineas en modo normal
 
     dd
+
+
+
 
 
 :e f . . . . . editar archivo f, a menos que hayan cambios
@@ -66,7 +85,6 @@ wnn
 :rw f . . . . . . . . . . . . . . . . . . . . guardar rango r a archivo f
 :rw>>f . . . . . . . . . . . . . . . . . . .agregar rango r al archivo f
 :q :q! . . . . . . . salir y confirmar, salir e ignorar cambios
-:wq or :x or ZZ . . . . . . . . . . . . guardar archivo actual y salir
 hupi hdowni . . recordar comandos anteriores (historial)
 :r f . . . .insertar contenido archivo f debajo del cursor
 :r! c. . insertar salida del comando c debajo del cursor
