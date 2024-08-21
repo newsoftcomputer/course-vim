@@ -62,6 +62,20 @@
 
 	-
 
+### Visual mode - Char to Char
+
+	v
+
+### Visual mode - Complet line
+
+	V
+
+### Visual mode - Select rectangular blocks
+
+	Ctrl + v
+
+
+
 ## 04 Command Line Mode
 
 	-
